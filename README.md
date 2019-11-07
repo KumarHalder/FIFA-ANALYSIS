@@ -1,22 +1,29 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**FIFA statictic webpage containing all information till 2010**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
-
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
-
----
-
-## Edit a file
-
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
-
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
-
----
+This is a mini project for demostrating HTML,CSS,JS capabilities. This webpage is interactive system to filter data according to user's choice and visualise necessary data through graph.
+Different types of graphs have been used for data visualisation. Data have been collected from kaggle free dataset containing information of 1956 to 2010. Some other interactive things are 
+latest news syste and top countries to win the world cup. 
 ![picture](fp.png)
+![picture](fpm.png)
+![picture](fpb.png)
+
+---
+
+## Visualisation
+
+Canvas.js have been used for data visualisation according to user's choice. The following types of charts are available for visualisation. 
+1. Area chart
+2. Bar chart.
+3. Funnel chart. 
+4. Box and whisker chart.
+5. Line chart.
+6. Waterfall chart.
+7. Pie chart
+
+---
+Below are some demo for different charts. 
+
 ![picture](s1.png)
+![picture](s2.png)
+![picture](s3.png)
+![picture](s4.png)
