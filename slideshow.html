@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/slideshowcss.css">
+    </head>
+    <body>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="brazil.jpg" style="width:100%">
+                <div class="text">Brazil Football Team</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="italy.jpg" style="width:100%">
+                <div class="text">Italy Football Team</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="spain2.jpg" style="width:100%">
+                <div class="text">Spain Football Team</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="germany.jpg" style="width:100%">
+                <div class="text">Germany Football team</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="france.jpg" style="width:100%">
+                <div class="text">France Football Team</div>
+            </div>
+           
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+           
+            
+        </div>
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+        </script>
+        
+    </body>
+</html>
