@@ -19,3 +19,4 @@ You’ll start by editing this README file to learn how to edit a file in Bitbuc
 
 ---
 [picture](fp.png)
+[picture](s1.png)
