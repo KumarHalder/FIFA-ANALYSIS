@@ -18,5 +18,5 @@ You’ll start by editing this README file to learn how to edit a file in Bitbuc
 6. Go back to the **Source** page.
 
 ---
-[picture](fp.png)
-[picture](s1.png)
+![picture](fp.png)
+![picture](s1.png)
