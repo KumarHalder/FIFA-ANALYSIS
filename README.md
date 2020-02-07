@@ -5,8 +5,16 @@ Different types of graphs have been used for data visualisation. Data have been 
 latest news syste and top countries to win the world cup. 
 
 ---
+Initial page 
+---
 ![picture](fp.png)
+---
+options
+---
 ![picture](fpm.png)
+---
+bottomside
+---
 ![picture](fpb.png)
 
 ---
